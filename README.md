@@ -1,0 +1,2 @@
+# Firefox New Tab Template
+

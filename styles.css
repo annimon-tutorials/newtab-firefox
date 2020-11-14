@@ -1,0 +1,70 @@
+html, body, fieldset, legend {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+
+html, body, #app {
+  font-family: "Roboto", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  height: 100%;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+  color: #9ba3bb;
+  font-weight: 400;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(0deg, #160424 0%, #1e366e 100%) no-repeat;
+}
+#speed-dial {
+  margin: 0 auto;
+}
+fieldset {
+  margin: 1em 0;
+  padding: 0.1em 0.3em 0.6em;
+  border: 1px #303f7b solid;
+  border-radius: 8px;
+}
+legend {
+  margin-left: 0.6em;
+  padding: 0.2em 0.8em;
+  font-weight: 300;
+  color: #8a8dc1;
+}
+.links > a, .links-group {
+  display: inline-block;
+  margin: 0 0.8em;
+}
+.links {
+  display: flex;
+  align-items: center;
+  color: #9ba3bb;
+}
+.links-group {
+  text-align: center;
+}
+
+#time {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.8em;
+  color: #ccd6dd;
+}
+
+/* Utils */
+.mx-1 { margin: 0 0.2em; }
+.mx-2 { margin: 0 0.6em; }
+.mt-3 { margin-top: 0.9em; }
+.font-sm { font-size: 0.75em; }
+.line-sm { line-height: 0.75em; }
